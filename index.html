@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro projeto HTML</title>
+    <link href="https://fonts.cdnfonts.com/css/komika-text" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./src/imagens/titulo.png" alt="">
+    </header>
+    <main class="personagens-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="./src/imagens/seta.png" alt="seta para voltar imagem">
+        </button>
+        <ul class="lista-personagens">
+            <li class="cartao selecionado">
+                <h2 class="nome">Izuku Midoriya</h2>
+                <img class="imagem-personagem" src="./src/imagens/deku.jpg" alt="izuku midoriya">
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        Izuku Midoriya, também conhecido como Deku, é um estudante da U.A, sucessor de All Might e atual usuário do One For All. Ele também é o protagonista de My Hero Academia. Izuku é um garoto muito tímido, prestativo e educado, frequentemente exagerando em situações anormais com expressões exageradas.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao">
+                <h2 class="nome">Katsuki Bakugo</h2>
+                <img class="imagem-personagem" src="./src/imagens/kazinho.jpg" alt="katsuki bakugo">
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        É o rival do protagonista, Izuku Midoriya. Katsuki é uma pessoa bastante grosseira, violenta,
+                        arrogante e agressiva e tem uma tendência ao bullying, assim como fazia com Izuku Midoriya, quem
+                        ele via como um obstáculo a ser superado, porém agora o trata como um rival.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao">
+                <h2 class="nome">Shoto Todoroki</h2>
+                <img class="imagem-personagem" src="./src/imagens/todoroki.jpg" alt="shoto todoroki">
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        Shoto Todoroki é um dos principais personagens de My Hero Academia. É filho de Endeavor e amigo
+                        de Izuku Midoriya. As características físicas mais notáveis na aparência de Shoto é o seu cabelo
+                        branco e vermelho, seus olhos preto e azul e uma queimadura no lado esquerdo do rosto.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao">
+                <h2 class="nome">Ochaco Uraraka</h2>
+                <img class="imagem-personagem" src="./src/imagens/uraraka.jpg" alt="ochaco uraraka">
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        Ochaco é uma pessoa calorosa, fofa e animada que pensa em tudo positivamente, embora seja objetiva o suficiente para ver defeitos e virtudes. Ela geralmente é empática e amigável com aqueles que encontra, e ela vai tentar ajudar ou defender qualquer pessoa que seja gentil com ela ou precise de ajuda.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao">
+                <h2 class="nome">Dabi</h2>
+                <img class="imagem-personagem" src="./src/imagens/dabi.jpg" alt="Dabi">
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        Dabi é um vilão Rank-B, membro da Liga dos Vilões e líder do Esquadrão de Ação da Vanguarda. É
+                        um dos principais antagonistas coadjuvantes de My Hero Academia.
+                    </p>
+                </div>
+            </li>
+        </ul>
+        <button class="btn-seta" id="btn-avancar">
+            <img src="./src/imagens/seta.png" alt="seta para avançar imagem">
+        </button>
+    </main>
+    <footer>
+        <p>Todas as imagens foram retiradas da internet.</p>
+    </footer>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
